@@ -11,10 +11,16 @@
 }
 
 body{
+
     background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/04/white-paper-texture-with-flecks.jpg");
 
+    background-repeat: repeat;
+
     background-size: cover;
+
     background-position: center;
+
+    background-attachment: fixed;
 }
 
 header > h1{
