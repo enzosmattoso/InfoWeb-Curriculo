@@ -1,105 +1,154 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Currículo - Enzo</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Currículo</title>
 </head>
+
 <body>
 
-  <div class="container">
+    <header>
+        <h1>Currículo</h1>
+    </header>
 
-    <h1>Currículo</h1>
+    <main>
 
-    <h2>Enzo Siqueira Mattoso</h2>
+        <div class="curriculo-container">
 
-    <section class="box">
-      <h3>Formação Acadêmica:</h3>
+            <section class="nome">
+                <h2>Enzo Siqueira Mattoso</h2>
+            </section>
 
-      <ul>
-        <li>Ensino Médio Incompleto</li>
-        <li>Curso Técnico de Informática (em andamento)</li>
-      </ul>
-    </section>
+            <div class="info-container">
 
-    <section class="box">
-      <h3>Experiência Profissional:</h3>
+                <section class="formacao">
 
-      <ul>
-        <li>Manutenção básica de computadores</li>
-        <li>Conhecimento em hardware e software</li>
-        <li>Atendimento ao cliente</li>
-      </ul>
-    </section>
+                    <h3>Formação Acadêmica:</h3>
 
-    <section class="box">
-      <h3>Habilidades:</h3>
+                    <ul>
+                        <li>Ensino Médio Incompleto</li>
+                        <li>Curso Técnico de Informática (em andamento)</li>
+                    </ul>
 
-      <ul>
-        <li>Facilidade em aprendizado</li>
-        <li>Conhecimento vasto em diversas áreas</li>
-        <li>Identificação com ferramentas tecnológicas</li>
-        <li>Conhecimento em computadores e celulares</li>
-        <li>Inglês avançado</li>
-      </ul>
-    </section>
+                </section>
 
-    <section class="box">
+                <section class="experiencia">
 
-      <table>
-        <tr>
-          <th>Idioma</th>
-          <th>Proficiência</th>
-        </tr>
+                    <h3>Experiência Profissional:</h3>
 
-        <tr>
-          <td>Português</td>
-          <td>Nativo</td>
-        </tr>
+                    <ul>
+                        <li>Sem experiência profissional formal</li>
+                        <li>Conhecimento em manutenção de computadores</li>
+                        <li>Conhecimento básico em celulares</li>
+                    </ul>
 
-        <tr>
-          <td>Inglês</td>
-          <td>Avançado</td>
-        </tr>
-      </table>
+                </section>
 
-    </section>
+                <section class="habilidades">
 
-    <section class="box">
-      <h3 class="center">Informações Complementares</h3>
+                    <h3>Habilidades:</h3>
 
-      <ul class="center-list">
-        <li>Interesse em tecnologia e manutenção</li>
-        <li>Vontade de aprender e evoluir profissionalmente</li>
-        <li>Disponibilidade para treinamento</li>
-      </ul>
-    </section>
+                    <ul>
+                        <li>Facilidade em aprendizado</li>
+                        <li>Conhecimento vasto em diversas áreas</li>
+                        <li>Identificação com ferramentas tecnológicas</li>
+                        <li>Conhecimento em hardware e software</li>
+                        <li>Interesse por tecnologia e manutenção</li>
+                        <li>Inglês avançado</li>
+                    </ul>
 
-    <div class="contact">
+                </section>
 
-      <h3>Contato</h3>
+                <section class="idiomas">
 
-      <table>
-        <tr>
-          <td><strong>Telefone:</strong></td>
-          <td>(55) 99999-9999</td>
-        </tr>
+                    <table class="table-idiomas">
 
-        <tr>
-          <td><strong>Email:</strong></td>
-          <td>seuemail@gmail.com</td>
-        </tr>
+                        <thead>
+                            <tr>
+                                <th>Idioma</th>
+                                <th>Proficiência</th>
+                            </tr>
+                        </thead>
 
-        <tr>
-          <td><strong>Cidade:</strong></td>
-          <td>Garruchos - RS</td>
-        </tr>
-      </table>
+                        <tbody>
 
-    </div>
+                            <tr>
+                                <td>Português</td>
+                                <td>Nativo</td>
+                            </tr>
 
-  </div>
+                            <tr>
+                                <td>Inglês</td>
+                                <td>Avançado</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </section>
+
+                <section class="informacoes-complementares">
+
+                    <h3>Informações Complementares</h3>
+
+                    <ul>
+                        <li>Vontade de aprender e crescer profissionalmente</li>
+                        <li>Interesse em informática e assistência técnica</li>
+                        <li>Disponibilidade para treinamento</li>
+                    </ul>
+
+                </section>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <table class="table-contato">
+
+            <thead>
+                <tr>
+                    <th colspan="2">Contato</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <th>Telefone:</th>
+                    <td>(55) 99999-9999</td>
+                </tr>
+
+                <tr>
+                    <th>Email:</th>
+                    <td>
+                        <a href="mailto:enzosmattoso@gmail.com">
+                            enzosmattoso@gmail.com
+                        </a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Cidade:</th>
+                    <td>Garruchos - RS</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </footer>
 
 </body>
+
 </html>
